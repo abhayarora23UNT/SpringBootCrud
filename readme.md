@@ -40,6 +40,8 @@ logging.file=myapp.log  <br>
 
 Below are the snapshots of different HTTP REST API 
 
+[Postman Collection](SpringBootPrac.postman_collection.json)
+
 getAllStudents Api
 
 ![image](https://github.com/abhayarora23UNT/SpringBootCrud/assets/98612141/4d8be6fc-4830-4de5-b62c-ab474477254a)
