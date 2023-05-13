@@ -1,43 +1,46 @@
-springboot-crud-demo
+
 Spring Boot CRUD demo is demonstrating how to implement simple CRUD operations with a Student entity.
 
 This project is based on the Spring Boot project and uses these packages :
 
-Maven
-Spring Web
-MySql Web Driver
-Spring Data JPA
-Lombok
-Log4j
+Maven <br>
+Spring Web <br>
+MySql Web Driver <br>
+Spring Data JPA <br>
+Lombok <br>
+Log4j  <br>
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////<br>
 
 Database configuration
 
-Create a MySQL database with the name universitylab and add the credentials to /resources/application.properties
+Create a MySQL database with the name universitylab and add the credentials to /resources/application.properties  <br>
 
-server.port=7820
+server.port=7820 <br><br>
 
-spring.datasource.url=jdbc:mysql://localhost:3306/universitylab
-spring.datasource.username=root
-spring.datasource.password=12345
+spring.datasource.url=jdbc:mysql://localhost:3306/universitylab   <br>
+spring.datasource.username=root  <br>
+spring.datasource.password=12345  <br>
 
-spring.jpa.show-sql=true
-spring.jpa.generate-ddl=true
-spring.jpa.hibernate.ddl.auto=update
-spring.jpa.properties.hibernate,dialect=org.hibernate.dialect.MySQL8Dialect
+<br>
+spring.jpa.show-sql=true  <br>
+spring.jpa.generate-ddl=true  <br>
+spring.jpa.hibernate.ddl.auto=update  <br>
+spring.jpa.properties.hibernate,dialect=org.hibernate.dialect.MySQL8Dialect  <br>
 
-logging.level.org.springframework.web=INFO
-logging.level.org.hibernate=ERROR
-logging.level.net.guides=DEBUG
+logging.level.org.springframework.web=INFO  <br>
+logging.level.org.hibernate=ERROR  <br>
+logging.level.net.guides=DEBUG  <br>
 
-logging.file=myapp.log
+logging.file=myapp.log  <br>
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 Below are the snapshots of different HTTP REST API 
+
+[Postman Collection](SpringBootPrac.postman_collection.json)
 
 getAllStudents Api
 
