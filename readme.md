@@ -72,3 +72,8 @@ logging.file=myapp.log
 ![image](https://github.com/abhayarora23UNT/SpringBootCrud/assets/98612141/bd507932-ab45-48cf-a099-4cb46c79e00e)
 
 
+#### Privacy Policy
+
+
+See the [Privacy Policy](Privacy%20Policy.md).md file for details
+
